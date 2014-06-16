@@ -1,0 +1,39 @@
+       em {
+        font-face: bold;
+        }
+        
+        h1, h2, h3 {
+        font-family: sans-serif;
+        color: cornsilk;
+        }
+       
+        p, li {
+        font-family: sans-serif;
+        color: darkslategray;
+        }
+        
+        a {
+        text-decoration: none;
+        color: darkslateblue;;
+        }
+        
+        a:hover {
+        color: ghostwhite;
+        font-style: italic;
+        }
+        
+        #me {
+        border-radius: 50%;
+        }
+        
+        .boxed {
+        border: solid cornsilk 2px;
+        }
+        
+        ul {
+        list-style-type: circle;
+        }
+        
+        body {
+        background: lightslategray;
+        }

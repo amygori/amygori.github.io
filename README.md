@@ -1,2 +1,0 @@
-amygori.github.io
-=================
