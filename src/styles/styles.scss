@@ -19,6 +19,8 @@ $text-font: "Lato", sans-serif;
 @include box-sizing(border-box);
 
 //Layout
+$max-width: 100%;
+
 $gw-column: 319px;          // Column Width
 $gw-gutter: 4px;           // Gutter Width
 
@@ -29,33 +31,27 @@ div {
 
  
        
-        p, li {
-        font-family: $text-font;
-        color: darkslategray;
-        }
+p, li {
+    font-family: $text-font;
+    color: darkslategray;
+    }
         
-        a {
-        text-decoration: none;
-        color: darkslateblue;;
-        }
-        
-        a:hover {
+a {
+    text-decoration: none;
+    color: darkslateblue;
+    :hover {
         color: ghostwhite;
         font-style: italic;
-        }
+    }
+}
         
-        #me {
-        border-radius: 50%;
-        }
-        
-        .boxed {
-        border: solid cornsilk 2px;
-        }
-        
-        ul {
-        list-style-type: circle;
-        }
-        
-        body {
-        background: lightslategray;
-        }
+#me {
+border-radius: 50%;
+}
+
+
+
+ul {
+list-style-type: circle;
+}
+
