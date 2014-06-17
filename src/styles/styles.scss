@@ -1,14 +1,36 @@
-       em {
-        font-face: bold;
-        }
-        
-        h1, h2, h3 {
-        font-family: sans-serif;
-        color: cornsilk;
-        }
+@import "bourbon/bourbon";
+@import "http://fonts.googleapis.com/css?family=Lustria|Lato|Grand+Hotel";
+
+//Colors
+$header_color: #30B2B8;
+$dark_blue: #175659;
+
+
+
+//Fonts
+$h1_font: "Lustria", serif;
+$h2_font: "Lato", sans-serif;
+$h3_font: "Grand+Hotel";
+
+$text-font: "Lato", sans-serif;
+
+
+//Mixins
+@include box-sizing(border-box);
+
+//Layout
+$gw-column: 319px;          // Column Width
+$gw-gutter: 4px;           // Gutter Width
+
+div {
+  width: grid-width(3);     
+  margin-left: $gw-gutter;  
+}
+
+ 
        
         p, li {
-        font-family: sans-serif;
+        font-family: $text-font;
         color: darkslategray;
         }
         
