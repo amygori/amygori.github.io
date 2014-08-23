@@ -1,28 +1,6 @@
-@import "bourbon/bourbon";
-@import "http://fonts.googleapis.com/css?family=Lustria|Lato|Grand+Hotel";
 
-//Colors
-$header_color: #30B2B8;
-$dark_blue: #175659;
-
-
-
-//Fonts
-$h1_font: "Lustria", serif;
-$h2_font: "Lato", sans-serif;
-$h3_font: "Grand+Hotel";
-
-$text-font: "Lato", sans-serif;
-
-
-//Mixins
+@include outer-container;
 @include box-sizing(border-box);
-
-//Layout
-$max-width: 100%;
-
-$gw-column: 319px;          // Column Width
-$gw-gutter: 4px;           // Gutter Width
 
 div {
   width: grid-width(3);     
@@ -52,6 +30,6 @@ border-radius: 50%;
 
 
 ul {
-list-style-type: circle;
+list-style-type: none;
 }
 
