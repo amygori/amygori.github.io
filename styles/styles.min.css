@@ -1,15 +1,5 @@
 /*
-Error: File to import not found or unreadable: bower_components/bourbon.
-       Load paths:
-         
-        on line 1 of styles/styles.scss
 
-1: @import "bower_components/bourbon";
-2: @import "bower_components/neat";
-3: @import "http://fonts.googleapis.com/css?family=Lustria|Lato|Grand+Hotel";
-4: @import "base";
-5: 
-6: @include outer-container;
 
 Backtrace:
 styles/styles.scss:1
