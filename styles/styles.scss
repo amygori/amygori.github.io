@@ -1,17 +1,12 @@
-@import "bower_components/bourbon/dist/bourbon";
-@import "bower_components/neat";
-@import "base";
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import "base/base";
 @import "http://fonts.googleapis.com/css?family=Lustria|Lato|Grand+Hotel";
 
 
 @include outer-container;
 
 
-
-div {
-   
-  
-}
 
  
        
@@ -29,9 +24,6 @@ a {
     }
 }
         
-#me {
-border-radius: 50%;
-}
 
 
 
