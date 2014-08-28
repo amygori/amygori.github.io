@@ -43,7 +43,3 @@ styles/styles.scss:1
 /Users/amygori/.rbenv/versions/2.1.2/bin/sass:23:in `load'
 /Users/amygori/.rbenv/versions/2.1.2/bin/sass:23:in `<main>'
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: bower_components/bourbon.\A        Load paths:\A          \A         on line 1 of styles/styles.scss\A \A 1: @import \"bower_components/bourbon\";\A 2: @import \"bower_components/neat\";\A 3: @import \"http://fonts.googleapis.com/css?family=Lustria|Lato|Grand+Hotel\";\A 4: @import \"base\";\A 5: \A 6: @include outer-container;"; }
