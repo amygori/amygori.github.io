@@ -3,7 +3,9 @@
 @import "../base/base";
 @import "http://fonts.googleapis.com/css?family=Lustria|Lato|Grand+Hotel";
 
-
+* {
+  @include box-sizing(border-box);
+}
 
 
 body {
