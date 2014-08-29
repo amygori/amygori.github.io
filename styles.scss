@@ -15,7 +15,8 @@
 }
 
 body {
-    background-color: $pale-blue;
+    @include linear-gradient ($pale-blue, $rich-blue);
+
 }
 
 h1 {

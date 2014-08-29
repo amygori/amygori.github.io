@@ -158,7 +158,9 @@ input[type="submit"] {
     margin-right: 0; }
 
 body {
-  background-color: #B8E2EF; }
+  background-color: #B8E2EF;
+  background-image: -webkit-linear-gradient(#B8E2EF, #6CABB0);
+  background-image: linear-gradient(#B8E2EF, #6CABB0); }
 
 h1 {
   margin-top: 200px; }
