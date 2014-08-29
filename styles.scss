@@ -15,7 +15,7 @@
 }
 
 body {
-    background-color: $light-red;
+    background-color: $pale-blue;
 }
 
 h1 {
@@ -32,10 +32,8 @@ p, li {
         
 a {
     text-decoration: none;
-    color: darkslateblue;
     :hover {
-        color: ghostwhite;
-        font-style: italic;
+        color: $hover-link-color;
     }
 }
         
