@@ -176,6 +176,9 @@ a {
   a :hover {
     color: #0d0d0d; }
 
+i {
+  margin-right: 10px; }
+
 ul {
   list-style-type: none; }
 
