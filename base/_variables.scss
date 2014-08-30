@@ -17,6 +17,7 @@ $base-border-radius: em(3);
 // Colors
 $blue: #477DCA;
 $pale-blue: #B8E2EF;
+$paler-blue: lighten($pale-blue, 9);
 $rich-blue: #6CABB0;
 $dark-gray: #333;
 $medium-gray: #999;
