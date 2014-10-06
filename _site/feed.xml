@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">AmyGori</title>
+<generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
+<link rel="alternate" type="text/html" href="http://localhost:4000" />
+<updated>2014-09-16T16:36:47-04:00</updated>
+<id>http://localhost:4000/</id>
+<author>
+  <name>Amy Gori</name>
+  <uri>http://localhost:4000/</uri>
+  <email>amydgori@gmail.com</email>
+</author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[I Went to Code School]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/iron/yard/codeschool/" />
+  <id>http://localhost:4000/iron/yard/codeschool</id>
+  <published>2014-09-05T17:29:42-04:00</published>
+  <updated>2014-09-05T17:29:42-04:00</updated>
+  <author>
+    <name>Amy Gori</name>
+    <uri>http://localhost:4000</uri>
+    <email>amydgori@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;I like to do things the hard way. Apparently. I supposed you could call it choosing challenge over boredom, or something like that. Given the choice between two options of things to do, I have almost invariably chosen the harder one. This has its advantages and disadvantages as a life strategy, obviously.  &lt;/p&gt;
+
+&lt;p&gt;Sure, there have been times when I’ve regretted my stubborn refusal to do things the easy way.  &lt;/p&gt;
+
+&lt;p&gt;Going to code school has not been one of those times.  &lt;/p&gt;
+
+&lt;p&gt;Last spring I read a Wall Street Journal article about code development bootcamp. I enrolled in &lt;a href=&quot;http://theironyard.com/academy/&quot; title=&quot;The Iron Yard&quot;&gt;The Iron Yard Academy&lt;/a&gt; in Durham, NC.&lt;br /&gt;
+&lt;br /&gt;
+Three months of intensive training in front end development required a lot to get through. The 80+ hours work- weeks were not an exaggeration. The workload was nearly crushing, the pace relentless. I swore I could actually &lt;em&gt;feel&lt;/em&gt; new synaptic pathways being created in my brain each and every day.&lt;br /&gt;
+&lt;br /&gt;
+But climbing that mountain was, in the end, incredibly satisfying. I can’t believe what I know now. I mean, my education as a front-end developer has just begun, of course, but I feel like I’ve earned my passport to this new country. I speak the language. I can pick up the tools and, even if I don’t know quite how to use them, I know what they’re used for and – this is the crucial part – I know how to figure out how to use them.&lt;br /&gt;
+&lt;br /&gt;
+At some point midway through, I had a moment of clarity amid the struggle. My greatest obstacle to progress was my own frustration.&lt;br /&gt;
+&lt;br /&gt;
+Ok. It is nearly impossible to be patient with yourself when you have to turn in homework every day at six am, and your first assignment is “Reproduce this PDF of a webpage in pixel perfection…in code. Which you just learned in the past three hours.”&lt;br /&gt;
+&lt;br /&gt;
+I learned to just keep pushing through the lack of understanding, to reframe that lack of understanding as a question that might get me back on track, rather than stack it up as mounting evidence of my failure.&lt;br /&gt;
+&lt;br /&gt;
+And I learned the importance of putting a problem aside and taking a break – a short walk in the fresh air sometimes, or sometimes a night’s sleep.&lt;br /&gt;
+&lt;br /&gt;
+I am amazed at how many mornings I woke up with a new solution to a problem I couldn’t solve the night before.  Sometimes that solution even worked the first time!&lt;br /&gt;
+&lt;br /&gt;
+There is a sweet spot of clarity I’m discovering more and more here on the other side of code school, now that I am liberated from some of those pressures.  I’ve been continuing to study and work with Javascript, and the more I do, the more a-ha moments I have. It’s making me realize that there is something zen-like in the practice of writing code.  There is a calm, serene place where I am in sync with its logic, where I can visualize the next step even before I have figured out how to write it.&lt;br /&gt;
+&lt;br /&gt;
+And once again I am reminded of how much this whole experience has made me feel like I am living The Matrix.&lt;br /&gt;
+&lt;br /&gt;
+I know Kung Fu. &lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/iron/yard/codeschool/&quot;&gt;I Went to Code School&lt;/a&gt; was originally published by Amy Gori at &lt;a href=&quot;http://localhost:4000&quot;&gt;AmyGori&lt;/a&gt; on September 05, 2014.&lt;/p&gt;</content>
+</entry>
+
+</feed>
