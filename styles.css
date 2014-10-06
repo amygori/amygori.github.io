@@ -1,0 +1,185 @@
+@import "http://fonts.googleapis.com/css?family=Lustria|Lato|Grand+Hotel";
+@import url(bower_components/font-awesome/css/font-awesome.min.css);
+button,
+input[type="submit"] {
+  -webkit-font-smoothing: antialiased;
+  background-color: #333;
+  border-radius: 0.1875em;
+  color: white;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1;
+  padding: .75em 1em;
+  text-decoration: none; }
+  button:hover,
+  input[type="submit"]:hover {
+    background-color: #0d0d0d;
+    color: white; }
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: white;
+  color: #333;
+  font-family: "Lato", sans-serif;
+  font-size: 1em;
+  line-height: 1.5; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lustria", serif;
+  line-height: 1.25em;
+  margin: 0;
+  text-rendering: optimizeLegibility; }
+
+h1 {
+  font-size: 2.25em; }
+
+h2 {
+  font-size: 2em; }
+
+h3 {
+  font-size: 1.75em; }
+
+h4 {
+  font-size: 1.5em; }
+
+h5 {
+  font-size: 1.25em; }
+
+h6 {
+  font-size: 1em; }
+
+p {
+  margin: 0 0 0.75em; }
+
+a {
+  -webkit-transition: color 0.1s linear;
+  -moz-transition: color 0.1s linear;
+  transition: color 0.1s linear;
+  color: #333;
+  text-decoration: none; }
+  a:hover {
+    color: #0d0d0d; }
+  a:active, a:focus {
+    color: #0d0d0d;
+    outline: none; }
+
+hr {
+  border-bottom: 1px solid #DDD;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: 1.5em 0; }
+
+img {
+  margin: 0;
+  max-width: 100%; }
+
+blockquote {
+  border-left: 2px solid #DDD;
+  color: #595959;
+  margin: 1.5em 0;
+  padding-left: 0.75em; }
+
+cite {
+  color: #737373;
+  font-style: italic; }
+  cite:before {
+    content: '\2014 \00A0'; }
+
+table {
+  border-collapse: collapse;
+  margin: 0.75em 0;
+  table-layout: fixed;
+  width: 100%; }
+
+th {
+  border-bottom: 1px solid #b7b7b7;
+  font-weight: bold;
+  padding: 0.75em 0;
+  text-align: left; }
+
+td {
+  border-bottom: 1px solid #DDD;
+  padding: 0.75em 0; }
+
+tr, td, th {
+  vertical-align: middle; }
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+dl {
+  margin-bottom: 0.75em; }
+  dl dt {
+    font-weight: bold;
+    margin-top: 0.75em; }
+  dl dd {
+    margin: 0; }
+
+button,
+input[type="submit"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.wrapper {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin-left: 25.58941%; }
+  .wrapper:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .wrapper:last-child {
+    margin-right: 0; }
+
+body {
+  background-color: #ddf1f7;
+  background-image: -webkit-radial-gradient(#ddf1f7, #B8E2EF, #6CABB0);
+  background-image: radial-gradient(  #ddf1f7, #B8E2EF, #6CABB0); }
+
+h1 {
+  margin-top: 200px; }
+
+h4 {
+  margin-top: 50px; }
+
+p, li {
+  font-family: "Lato", sans-serif; }
+
+a {
+  text-decoration: none; }
+  a :hover {
+    color: #0d0d0d; }
+
+i {
+  margin-right: 10px; }
+
+ul {
+  list-style-type: none; }
+
+/*# sourceMappingURL=styles.css.map */
