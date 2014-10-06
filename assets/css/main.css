@@ -1,0 +1,48 @@
+/*
+Error: Invalid CSS after "...ort "variables"": expected "{", was ";"
+        on line 15 of assets/css/main.scss
+
+10:  *  Twitter: http://twitter.com/mmistakes
+11:  *
+12: *\/
+13: 
+14: // Partials
+15: @import "variables";
+16: @import "grid";
+17: @import "mixins";
+18: @import "normalize";
+19: @import "site";
+20: @import "typography";
+
+Backtrace:
+assets/css/main.scss:15
+/Users/amygori/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.4/lib/sass/scss/parser.rb:1163:in `expected'
+/Users/amygori/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.4/lib/sass/scss/parser.rb:1099:in `expected'
+/Users/amygori/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.4/lib/sass/scss/parser.rb:1094:in `tok!'
+/Users/amygori/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.4/lib/sass/scss/parser.rb:641:in `block'
+/Users/amygori/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.4/lib/sass/scss/parser.rb:635:in `ruleset'
+/Users/amygori/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.4/lib/sass/scss/parser.rb:660:in `block_child'
+/Users/amygori/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.4/lib/sass/scss/parser.rb:650:in `block_contents'
+/Users/amygori/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.4/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Users/amygori/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.4/lib/sass/scss/parser.rb:42:in `parse'
+/Users/amygori/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.4/lib/sass/engine.rb:393:in `_to_tree'
+/Users/amygori/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.4/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Users/amygori/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.4/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Users/amygori/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.4/lib/sass/plugin/compiler.rb:489:in `update_stylesheet'
+/Users/amygori/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/amygori/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.4/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/amygori/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/amygori/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.4/lib/sass/plugin/compiler.rb:293:in `watch'
+/Users/amygori/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.4/lib/sass/plugin.rb:108:in `method_missing'
+/Users/amygori/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.4/lib/sass/exec/sass_scss.rb:349:in `watch_or_update'
+/Users/amygori/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.4/lib/sass/exec/sass_scss.rb:50:in `process_result'
+/Users/amygori/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.4/lib/sass/exec/base.rb:40:in `parse'
+/Users/amygori/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.4/lib/sass/exec/base.rb:19:in `parse!'
+/Users/amygori/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.4/bin/sass:13:in `<top (required)>'
+/Users/amygori/.rbenv/versions/2.1.2/bin/sass:23:in `load'
+/Users/amygori/.rbenv/versions/2.1.2/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...ort \"variables\"\": expected \"{\", was \";\"\A         on line 15 of assets/css/main.scss\A \A 10:  *  Twitter: http://twitter.com/mmistakes\A 11:  *\A 12: */\A 13: \A 14: // Partials\A 15: @import \"variables\";\A 16: @import \"grid\";\A 17: @import \"mixins\";\A 18: @import \"normalize\";\A 19: @import \"site\";\A 20: @import \"typography\";"; }
